@@ -1,0 +1,6 @@
+[deps]
+DistributionMetrics = "0ff914a2-51c0-446a-827d-cb53aa35d1db"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+[sources]
+DistributionMetrics = {path = ".."}

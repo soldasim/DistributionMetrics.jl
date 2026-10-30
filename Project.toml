@@ -1,0 +1,7 @@
+name = "DistributionMetrics"
+uuid = "0ff914a2-51c0-446a-827d-cb53aa35d1db"
+authors = ["Šimon Soldát"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
