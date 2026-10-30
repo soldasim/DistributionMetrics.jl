@@ -4,11 +4,30 @@ CurrentModule = DistributionMetrics
 
 # DistributionMetrics
 
-Documentation for [DistributionMetrics](https://github.com/soldasim/DistributionMetrics.jl).
+Metrics for measuring how well an approximate probability distribution matches a reference distribution,
+either from samples or from (possibly unnormalized) log-densities.
 
-```@index
+All metrics are evaluated by [`calculate_metric`](@ref) (lower is better).
+Samples are matrices with one sample per column.
+
+## Metric types
+
+```@docs
+DistributionMetric
+SampleMetric
+PDFMetric
+calculate_metric
 ```
 
-```@autodocs
-Modules = [DistributionMetrics]
+## Total Variation
+
+```@docs
+TVMetric
+```
+
+## Maximum Mean Discrepancy
+
+```@docs
+MMDMetric
+OptMMDMetric
 ```

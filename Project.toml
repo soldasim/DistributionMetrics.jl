@@ -1,7 +1,15 @@
 name = "DistributionMetrics"
 uuid = "0ff914a2-51c0-446a-827d-cb53aa35d1db"
-authors = ["Šimon Soldát"]
 version = "0.1.0"
+authors = ["Šimon Soldát"]
+
+[deps]
+KernelFunctions = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
+Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [compat]
+KernelFunctions = "0.10.64, 0.11"
+Optimization = "4.3.0, 5"
+Statistics = "1.10"
 julia = "1.10"
